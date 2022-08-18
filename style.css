@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: brown;
+}
+
+.caixadetexto {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  height: calc(40% - 6px);
+  width: 232px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.detergente {
+  width: 150px;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+.avaliacao {
+  font-size: 70%;
+  color: rgb(100, 100, 100);
+}
+
+.valor {
+  display: flex;
+  margin-top: 50px;
+}
+
+img {
+  margin-inline: auto;
+  display: flex;
+}
+
+.dividir {
+  font-size: 77%;
+  color: rgb(100, 100, 100);
+}
+
+.estrelas {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
